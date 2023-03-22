@@ -83,7 +83,7 @@ const handleSubmit = async(e)=>{
     const response = await fetch('https://chat-imyx.onrender.com/',{
     method: 'POST',
     headers:{
-        'Content-Type' : 'application/json'
+        'Content-Type' : 'application/json',
     },
 
     body:JSON.stringify({
